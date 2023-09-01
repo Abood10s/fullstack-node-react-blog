@@ -24,7 +24,7 @@ module.exports.registerUserCtrl = asyncHandler(async (req, res) => {
   if (user) {
     return res.status(400).json({ message: "this user already exists" });
   }
-  // hash password
+  // hashing the password
   const salt = await bcrypt.genSalt(10);
   const hashedPassword = await bcrypt.hash(req.body.password, salt);
   // create new user then save it in the DB
