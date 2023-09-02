@@ -1,6 +1,5 @@
 import { request } from "../../utils/API";
 import { authActions } from "../Slices/AuthSlice";
-import { toast } from "react-toastify";
 
 // Login User
 export const loginUser = (user) => {
