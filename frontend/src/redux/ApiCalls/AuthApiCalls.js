@@ -10,7 +10,8 @@ export const loginUser = (user) => {
       dispatch(authActions.login(data));
       localStorage.setItem("userInfo", JSON.stringify(data));
     } catch (error) {
-      toast.error(error.response.data.message);
+      console.log(error);
+      // toast.error(error.response.data.message);
     }
   };
 };
@@ -31,7 +32,9 @@ export const registerUser = (user) => {
       //register(data.message) => from backend res.json({message:"you registered successfully"})
       dispatch(authActions.register(data.message));
     } catch (error) {
-      toast.error(error.response.data.message);
+      console.log(error);
+
+      // toast.error(error.response.data.message);
     }
   };
 };
