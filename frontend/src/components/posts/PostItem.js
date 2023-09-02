@@ -8,7 +8,7 @@ const PostItem = ({ post, username, userId }) => {
   return (
     <div className="post-item">
       <div className="post-item-image-wrapper">
-        <img src={post?.image.url} alt="" className="post-itme-image" />
+        <img src={post?.image.url} alt="" className="post-item-image" />
       </div>
       <div className="post-item-info-wrapper">
         <div className="post-item-info">
@@ -17,9 +17,6 @@ const PostItem = ({ post, username, userId }) => {
             <Link className="post-item-username" to={profileLink}>
               {username ? username : post?.user.username}
             </Link>
-          </div>
-          <div className="post-item-date">
-            {new Date(post?.createdAt).toDateString()}
           </div>
           <div className="post-item-date">
             {new Date(post?.createdAt).toDateString()}

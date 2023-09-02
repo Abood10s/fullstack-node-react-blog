@@ -12,7 +12,7 @@ const Header = () => {
     <header className="header">
       <div className="header-left">
         <div className="header-logo">
-          <strong>BLOG</strong>
+          <strong>Blogopedia</strong>
           <i className="bi bi-pencil"></i>
         </div>
         <div
@@ -56,7 +56,6 @@ const Header = () => {
               className="nav-link"
               onClick={() => setShowNav(false)}
             >
-              {" "}
               <i className="bi bi-person-check"></i> Admin Dashboard
             </Link>
           )}

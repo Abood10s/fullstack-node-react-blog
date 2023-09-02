@@ -4,7 +4,7 @@
     --secondary-color: #495e74;
     --gray-color: #778697;
     --dark-color: #292b2c;
-    --blue-color: #0275d8;
+    --blue-color: #081c15;
     --green-color: #27ae60;
     --green-sea-color: #16a085;
     --pumpkin-color: #d35400;
@@ -16,7 +16,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
 body {
@@ -25,6 +25,10 @@ body {
 }
 
 a {
+    text-decoration: none;
+}
+
+a:visited {
     text-decoration: none;
 }
 
@@ -55,11 +59,11 @@ textarea:focus {
 /* Scrollbar Classes For Google Chrome */
 
 html::-webkit-scrollbar {
-    width: 12px;
+    width: 8px;
 }
 
 html::-webkit-scrollbar-track {
-    background-color: rgb(187, 179, 179);
+    background-color: #fff;
 }
 
 html::-webkit-scrollbar-thumb {

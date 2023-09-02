@@ -1,6 +1,8 @@
 import React from "react";
 const Footer = () => {
-  return <footer style={styles}>Copyright 2023 &copy;</footer>;
+  return (
+    <footer style={styles}>Copyright 2023 Abdulrahman Saafeen &copy;</footer>
+  );
 };
 const styles = {
   color: "var(--white-color)",

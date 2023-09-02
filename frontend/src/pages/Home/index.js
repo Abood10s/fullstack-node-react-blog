@@ -16,9 +16,9 @@ const HomePage = () => {
 
   return (
     <section className="home">
-      <div className="home-hearo-header">
+      <div className="home-hero-header">
         <div className="home-hero-header-layout">
-          <h1 className="home-title">Welcome to Blog</h1>
+          <h1 className="home-title">We Create Innovation</h1>
         </div>
       </div>
       <div className="home-latest-post">Latest Posts</div>

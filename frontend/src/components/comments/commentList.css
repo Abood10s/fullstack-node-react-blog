@@ -33,9 +33,9 @@
 }
 
 .comment-item-time {
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--pumpkin-color);
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--green-color);
 }
 
 .comment-item-text {

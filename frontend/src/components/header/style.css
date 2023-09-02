@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 80px;
-    padding: 0 30px;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,6 +24,9 @@
     font-weight: bold;
     color: var(--white-color);
     text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .header-menu {
@@ -31,7 +34,7 @@
 }
 
 .header-menu i {
-    font-size: 40px;
+    font-size: 37px;
     color: var(--white-color);
     cursor: pointer;
 }
@@ -141,8 +144,9 @@
         top: 100%;
         width: 100%;
         background-color: var(--blue-color);
-        transition: all .7s ease-in-out;
+        transition: all 0.4s cubic-bezier(0.6, 0.4, 0, 1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        padding: 0.5rem 0;
     }
     .nav-links {
         flex-direction: column;
@@ -151,8 +155,7 @@
         padding-left: 30px;
     }
     .nav-link {
-        margin: 0;
-        margin-bottom: 15px;
+        margin: 1.5rem;
     }
 }
 
