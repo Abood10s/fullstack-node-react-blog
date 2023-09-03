@@ -83,6 +83,11 @@
         margin-left: 15px;
     }
     .home-title {
-        font-size: 30px;
+        font-size: 25px;
+        width: 90%;
+        white-space: nowrap;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        color: #2b2626;
     }
 }

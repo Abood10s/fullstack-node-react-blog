@@ -125,4 +125,22 @@
     .post-item-image {
         object-fit: cover;
     }
+    .post-item-author {
+        font-size: 14px;
+    }
+    .post-item-date {
+        font-size: 13px;
+    }
+    .post-item-details {
+        flex-direction: column;
+        gap: 0.8rem
+    }
+    .post-item-title {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: start;
+    }
+    .post-item-category {
+        font-size: 12px;
+    }
 }
