@@ -165,7 +165,7 @@
         padding: 0 5px;
     }
     .header-logo {
-        font-size: 17px;
+        display: none;
     }
     .header-right-link {
         font-size: 17px;
