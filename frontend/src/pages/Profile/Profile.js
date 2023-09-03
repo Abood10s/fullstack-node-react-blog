@@ -29,7 +29,7 @@ const Profile = () => {
   useEffect(() => {
     dispatch(getUserProfile(id));
     window.scrollTo(0, 0);
-  }, [id]);
+  }, [id, dispatch]);
 
   // this use effect if the user deleted his profile
   useEffect(() => {
