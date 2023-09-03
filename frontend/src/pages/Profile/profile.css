@@ -37,10 +37,10 @@
 
 .upload-profile-photo-icon,
 .upload-profile-photo-btn {
-    color: var(--primary-color);
-    background-color: #eee;
+    color: #fff;
+    background-color: #000;
     border: 1px solid var(--primary-color);
-    border-radius: 50%;
+    border-radius: 10px;
     padding: 0 5px;
     position: absolute;
     bottom: -5px;
@@ -56,8 +56,9 @@
     border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
-    color: var(--dark-color);
+    color: #fff;
     right: -65px;
+    padding: 0.1rem;
 }
 
 .profile-username {
@@ -137,5 +138,8 @@
     }
     .profile-bio {
         text-align: center;
+    }
+    .profile-posts-list-title {
+        font-size: 30px;
     }
 }
