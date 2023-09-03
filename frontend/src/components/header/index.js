@@ -101,7 +101,7 @@ const Header = () => {
           )}
         </div>
       ) : (
-        <div className="heder-right">
+        <div className="header-right">
           <Link to="/login" className="header-right-link">
             {" "}
             <i className="bi bi-box-arrow-in-right"></i> <span>Login</span>

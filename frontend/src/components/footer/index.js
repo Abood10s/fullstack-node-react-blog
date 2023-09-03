@@ -12,5 +12,6 @@ const styles = {
   justifyContent: "center",
   alignItems: "center",
   height: "50px",
+  textAlign: "center",
 };
 export default Footer;

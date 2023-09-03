@@ -26,7 +26,7 @@
     text-decoration: underline;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.2rem;
 }
 
 .header-menu {
@@ -69,11 +69,11 @@
 
 .header-right-link {
     margin-left: 10px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
     background-color: var(--white-color);
     color: var(--blue-color);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 10px;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .header-right-username {
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 500;
     color: var(--main-color);
     margin-right: 10px;
@@ -109,7 +109,7 @@
 
 .header-right-dropdown {
     position: absolute;
-    right: 50%;
+    right: 30%;
     top: 100%;
     background-color: var(--main-color);
     border: 1px solid var(--white-color);
@@ -123,7 +123,7 @@
     color: var(--primary-color);
     font-weight: 500;
     font-size: 21px;
-    margin-top: 15px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -136,7 +136,7 @@
     }
     .header-menu {
         display: block;
-        margin-right: 20px;
+        margin-right: 15px;
     }
     .navbar {
         position: absolute;
@@ -147,6 +147,7 @@
         transition: all 0.4s cubic-bezier(0.6, 0.4, 0, 1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         padding: 0.5rem 0;
+        overflow-x: hidden;
     }
     .nav-links {
         flex-direction: column;
@@ -161,16 +162,21 @@
 
 @media (max-width: 520px) {
     .header {
-        padding: 0 10px;
+        padding: 0 5px;
     }
     .header-logo {
-        font-size: 19px;
+        font-size: 17px;
     }
     .header-right-link {
         font-size: 17px;
-        padding: 5px 7px;
+        padding: 3px 7px;
+        display: block;
+        margin: 0.2rem 0;
     }
     .header-menu {
         margin-right: 10px;
+    }
+    .header-right-username {
+        text-overflow: ellipsis;
     }
 }
