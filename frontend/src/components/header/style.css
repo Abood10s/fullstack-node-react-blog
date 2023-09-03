@@ -170,8 +170,7 @@
     .header-right-link {
         font-size: 17px;
         padding: 3px 7px;
-        display: block;
-        margin: 0.2rem 0;
+        margin: 5px;
     }
     .header-menu {
         margin-right: 10px;
